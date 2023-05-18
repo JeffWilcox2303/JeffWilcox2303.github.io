@@ -118,6 +118,7 @@ div.textbox{
 } */
 a{
 	color:#ffffff;
+	text-decoration: none;
 }
 #entertainment{
 	display:flex;
