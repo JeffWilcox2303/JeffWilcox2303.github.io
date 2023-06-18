@@ -1,3 +1,38 @@
+*{
+	cursor:default;
+}
+a{
+	color:#ffffff;
+	text-decoration: none;
+}
+a:hover{
+	cursor:pointer;
+}
+body{
+	overflow-x: hidden;
+}
+button{
+	color:#ffffff;
+	background-color:#101D42;
+	font-size: 16px;
+}
+button:hover{
+	cursor:pointer;
+}
+div.img{
+	text-align:center;
+}
+div.textbox{
+	background-color:#427AA1;
+	border-style:solid;
+	border-width:3px;
+	border-radius:5px;
+	border-color:#000000;
+}
+div.topFill{
+	padding-top:180px;
+	width:100%;
+}
 h1{
 	color: #ffffff;
 	text-align:center;
@@ -18,78 +53,6 @@ h2{
     padding: 3px;
 	border-radius:3px;
 }
-p{
-	padding-left:10px;
-	padding-bottom:15px;
-	font-size: 20px;
-}
-body{
-	overflow-x: hidden;
-}
-td{
-	text-align:center;
-	border-right: 2px solid #111111;
-	border-left: 2px solid #111111;
-}
-tr{
-	background-color:#FFFFFF;
-}
-tr.even{
-	background-color:#efefef;
-}
-td.brow{
-	border-bottom: 2px solid #111111;
-}
-#blcorner{
-	border-bottom: 2px solid #111111;
-	border-left: 2px solid #111111;
-}
-th.col{
-	border-bottom: 2px solid #111111;
-	border-right: 2px solid #111111;
-	border-left: 2px solid #111111;
-	border-top: 2px solid #111111;
-	background-color:#C4CBCA;
-}
-th.row{
-	border-right: 2px solid #111111;
-	border-left: 2px solid #111111;
-}
-tr.singlerow{
-	background-color:#4BB3FD;
-}
-th, td {
-	padding: 7px 10px 10px 10px;
-}
-button{
-	color:#ffffff;
-	background-color:#101D42;
-	font-size: 16px;
-}
-*{
-	cursor:default;
-}
-button:hover{
-	cursor:pointer;
-}
-
-div.topFill{
-	padding-top:180px;
-	width:100%;
-}
-table{
-	padding-bottom:20px;
-}
-div.img{
-	text-align:center;
-}
-img{
-	margin:10px;
-	border-style:solid;
-	border-width:4px;
-	border-radius:5px;
-	border-color:#000000;
-}
 html{
 	scroll-padding-top: 100px;
 	scroll-behavior: smooth;
@@ -106,90 +69,67 @@ html{
 	/* C4CBCA */
 	/* ADB6C4 */
 }
-div.textbox{
-	background-color:#427AA1;
+img{
+	margin:auto;
 	border-style:solid;
-	border-width:3px;
+	border-width:4px;
 	border-radius:5px;
 	border-color:#000000;
-}
-/* ul, ol{
-	padding-left:600px;
-	padding-bottom:15px;
-} */
-a{
-	color:#ffffff;
-	text-decoration: none;
-}
-#entertainment{
-	display:flex;
-}
-#books{
-	flex:1.5;
-	margin-right:20px;
-}
-#movies{
-	flex:1;
-	margin-right:20px;
-}
-#tv{
-	flex:1;
-}
-#contact{
-	clear:left;
+	display:block;
 }
 li.movie, li.book, li.tv{
 	width:50%;
 	font-size: 20px;
 }
-ul, ol{
+ol{
 	float:left;
 	padding-left:30%;
 	width:100%;
 }
-.return{
-	color:#000000;
-	text-align: center;
+p{
+	padding-left:10px;
+	padding-bottom:15px;
+	font-size: 20px;
 }
-.cover{
-	float: left;
-	width: 20%;
-	padding: 5px;
-	text-align: center;
+table{
+	padding-bottom:20px;
 }
-.nav{
-	display: inline;
-	padding: 5px;
-}
-.navbar{
-	text-align: left;
-	margin-left: 2.5%;
+ul{
+	float:left;
+	padding-left:30%;
+	width:100%;
 }
 
-/* Next & previous buttons */
-.prev, .next {
- 	cursor: pointer;
- 	top: 50%;
- 	width: auto;
- 	margin-top: 200px;
- 	padding: 15px;
- 	color: white;
- 	font-weight: bold;
- 	font-size: 18px;
- 	transition: 0.6s ease;
- 	border-radius: 0 3px 3px 0;
- 	user-select: none;
-}
 
-/* Position the "next button" to the right */
-.next {
- 	right: 0;
- 	border-radius: 3px 0 0 3px;
-	margin-left:20px;
+#blcorner{
+	border-bottom: 2px solid #111111;
+	border-left: 2px solid #111111;
 }
-
-#resumecontainer{
+#books{
+	flex:1.75;
+	margin-right:20px;
+}
+#contact{
+	clear:left;
+}
+#entertainment{
 	display:flex;
+}
+#hello{
+	padding-bottom:7.5%;
+}
+#movies{
+	flex:1;
+	margin-right:20px;
+}
+#outdoors1{
+	flex:3;
+}
+#outdoors2{
+	flex:1;
+}
+#outdoors3{
+	flex:4;
 }
 #resume1{
 	flex:2;
@@ -197,6 +137,20 @@ ul, ol{
 #resume2{
 	flex:1;
 	padding-right: 20px;
+}
+#resumecontainer{
+	display:flex;
+}
+#tv{
+	flex:1;
+}
+
+
+.cover{
+	float: left;
+	width: 20%;
+	padding: 5px;
+	text-align: center;
 }
 .flex-parent{
 	display: flex;
@@ -212,3 +166,43 @@ ul, ol{
 .flex-child2{
 	flex: 1;
 }
+.main-section{
+	padding-top: 7.5%;
+	padding-bottom: 7.5%;
+}
+.nav{
+	display: inline;
+	padding: 5px;
+}
+.navbar{
+	text-align: left;
+	margin-left: 2.5%;
+}
+/* Next & previous buttons */
+.prev, .next {
+ 	cursor: pointer;
+ 	top: 50%;
+ 	width: auto;
+ 	margin-top: 200px;
+ 	padding: 15px;
+ 	color: white;
+ 	font-weight: bold;
+ 	font-size: 18px;
+ 	transition: 0.6s ease;
+ 	border-radius: 0 3px 3px 0;
+ 	user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+ 	right: 0;
+ 	border-radius: 3px 0 0 3px;
+	margin-left:20px;
+}
+.return{
+	color:#000000;
+	text-align: center;
+}
+
+
+
+
