@@ -91,7 +91,8 @@ img{
 	border-color:#000000;
 }
 html{
-	scroll-padding-top: 190px;
+	scroll-padding-top: 100px;
+	scroll-behavior: smooth;
 	/* background: hsla(228, 97%, 30%, 1);
 
 	background: linear-gradient(135deg, hsla(228, 97%, 30%, 1) 0%, hsla(113, 100%, 72%, 1) 90%);
