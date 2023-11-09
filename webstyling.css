@@ -1,12 +1,12 @@
 *{
-	cursor:default;
+	cursor: default;
 }
 a{
 	color:#ffffff;
 	text-decoration: none;
 }
 a:hover{
-	cursor:pointer;
+	cursor: pointer;
 }
 body{
 	overflow-x: hidden;
