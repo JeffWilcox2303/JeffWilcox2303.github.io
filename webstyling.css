@@ -1,19 +1,27 @@
 *{
 	cursor: default;
 }
+/* Comment for Jeremy */
 a{
-	color:#ffffff;
+	/* color:#ffffff; */
+	color: #7B0828;
 	text-decoration: none;
 }
 a:hover{
 	cursor: pointer;
+}
+a.nav{
+	color: #ffffff;
+	text-decoration: none;
 }
 body{
 	overflow-x: hidden;
 }
 button{
 	color:#ffffff;
-	background-color:#101D42;
+	background-color: #213C87;
+	/* background-color:#AEADF0; */
+	/* background-color: #66BFFF; */
 	font-size: 16px;
 }
 button:hover{
@@ -23,7 +31,9 @@ div.img{
 	text-align:center;
 }
 div.textbox{
-	background-color:#427AA1;
+	/* background-color:#F4EBBE; */
+	/* color: #427AA1; */
+	background-color: #94C3E4;
 	border-style:solid;
 	border-width:3px;
 	border-radius:5px;
@@ -35,22 +45,32 @@ div.topFill{
 }
 h1{
 	color: #ffffff;
+	/* color: #101D42; */
 	text-align:center;
 	font-size: 50px;
-	background-color:#101D42;
+	background-color:#213C87;
+	/* background-color: #AEADF0; */
 	display: table;
     margin: 10px auto 0px auto;
-    padding: 5px;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
 	border-radius:10px;
 }
 h2{
 	color:#ffffff;
-	/* background-color:#101D42; */
+	/* color: #101D42; */
+	background-color:#213C87;
+	/* background-color:#AEADF0; */
 	text-align:center;
 	font-size: 30px;
 	display: table;
     margin: 10px auto 0px auto;
-    padding: 3px;
+    padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
 	border-radius:3px;
 }
 html{
@@ -65,7 +85,9 @@ html{
 	background: -webkit-linear-gradient(135deg, hsla(228, 97%, 30%, 1) 0%, hsla(113, 100%, 72%, 1) 90%);
 
 	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#021F96", endColorstr="#82FF72", GradientType=1 ); */
-	background-color:#427AA1;
+	/* background-color:#427AA1; */
+	/* background-color:#F4EBBE; */
+	background-color: #94C3E4;
 	/* C4CBCA */
 	/* ADB6C4 */
 }
@@ -90,6 +112,7 @@ p{
 	padding-left:10px;
 	padding-bottom:15px;
 	font-size: 20px;
+	color: #000000;
 }
 table{
 	padding-bottom:20px;
@@ -99,11 +122,21 @@ ul{
 	padding-left:30%;
 	width:100%;
 }
+ul.navbar{
+	display: table-row;
+	width: 100%;
+}
+ul.navbar li{
+	display: table-cell;
+	text-align: right;
+	width: auto;
+	white-space: nowrap;
+}
 
 
 #blcorner{
-	border-bottom: 2px solid #111111;
-	border-left: 2px solid #111111;
+	border-bottom: 2px solid #000000;
+	border-left: 2px solid #000000;
 }
 #books{
 	flex:1.75;
@@ -162,6 +195,7 @@ ul{
 }
 .flex-child1{
 	flex: 3;
+	display: table;
 }
 .flex-child2{
 	flex: 1;
@@ -174,10 +208,11 @@ ul{
 	display: inline;
 	padding: 5px;
 }
-.navbar{
+/* .navbar{
 	text-align: left;
 	margin-left: 2.5%;
-}
+} */
+
 /* Next & previous buttons */
 .prev, .next {
  	cursor: pointer;
@@ -185,7 +220,7 @@ ul{
  	width: auto;
  	margin-top: 200px;
  	padding: 15px;
- 	color: white;
+ 	color: #F4EBBE;
  	font-weight: bold;
  	font-size: 18px;
  	transition: 0.6s ease;
