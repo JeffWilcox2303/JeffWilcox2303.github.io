@@ -6,6 +6,7 @@ a{
 	color:#922443;
 	/* color: #7B0828; */
 	text-decoration: none;
+	font-size: 20px;
 }
 a:hover{
 	cursor: pointer;
@@ -17,19 +18,29 @@ a.nav{
 body{
 	overflow-x: hidden;
 	margin-left: 0px;
+	margin-right: 0px;
 }
 button{
 	color:#ffffff;
-	background-color: #213C87;
+	background-color: #94C3E4;
+	border: 0px;
+	/* background-color: #213C87; */
 	/* background-color:#AEADF0; */
 	/* background-color: #66BFFF; */
 	font-size: 16px;
 }
 button:hover{
 	cursor:pointer;
+	transform: scale(1.2);
 }
 div.img{
 	text-align:center;
+}
+div.center-entertainment{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-left: 6vw;
 }
 div.textbox{
 	/* background-color:#F4EBBE; */
@@ -52,7 +63,7 @@ h1{
 	background-color:#213C87;
 	/* background-color: #AEADF0; */
 	display: table;
-    margin: 10px auto 0px auto;
+    margin: 0px auto 0px auto;
     padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 25px;
@@ -123,22 +134,16 @@ p{
 table{
 	padding-bottom:20px;
 }
-ul{
-	float:left;
-	padding-left:30%;
-	width:100%;
-}
-ul.navbar{
-	display: table-row;
-	width: 100%;
-}
+/* ul.navbar a{
+	font-size: 20px;
+} */
 ul.navbar li{
-	display: table-cell;
-	text-align: right;
+	/* display: table-cell; */
+	display: inline;
+	text-align: center;
 	width: auto;
 	white-space: nowrap;
 }
-
 
 #blcorner{
 	border-bottom: 2px solid #000000;
@@ -147,6 +152,14 @@ ul.navbar li{
 #books{
 	flex:1.75;
 	margin-right:20px;
+	margin-bottom:auto;
+	width: 100%;
+}
+#books-list-container{
+	display: table;
+	text-align: center;
+	width: 100%;
+	margin-left: 10vw;
 }
 #contact{
 	clear:left;
@@ -159,7 +172,12 @@ ul.navbar li{
 }
 #movies{
 	flex:1;
-	margin-right:20px;
+}
+#movies-list-container{
+	display: table;
+	text-align: center;
+	width: 100%;
+	margin-left: 5vw;
 }
 #outdoors1{
 	flex:3;
@@ -182,6 +200,12 @@ ul.navbar li{
 }
 #tv{
 	flex:1;
+}
+#tv-list-container{
+	display: table;
+	text-align: center;
+	width: 100%;
+	margin-left: 6vw;
 }
 
 
@@ -214,11 +238,8 @@ ul.navbar li{
 .nav{
 	display: inline;
 	padding: 5px;
+	text-align: center;
 }
-/* .navbar{
-	text-align: left;
-	margin-left: 2.5%;
-} */
 
 /* Next & previous buttons */
 .prev, .next {
@@ -242,6 +263,9 @@ ul.navbar li{
 }
 .return{
 	color:#000000;
+	text-align: center;
+}
+.ul-container{
 	text-align: center;
 }
 
