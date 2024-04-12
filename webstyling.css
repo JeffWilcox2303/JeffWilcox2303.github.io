@@ -3,7 +3,7 @@
 }
 /* Comment for Jeremy */
 a{
-	color:#922443;
+	color:#7F0729;
 	/* color: #7B0828; */
 	text-decoration: none;
 	font-size: 1.4vw;
@@ -12,33 +12,43 @@ a:hover{
 	cursor: pointer;
 }
 a.nav{
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
+	padding: 0.6vw;
+}
+a.name{
+	color: #000000;
+	text-align:center;
+	font-size: 3vw;
+	vertical-align: middle;
+	font-family: "Righteous";
 }
 body{
 	overflow-x: hidden;
 	margin-left: 0vw;
 	margin-right: 0vw;
+	font-family: 'Noto Sans';
 }
 button{
 	/* background-color: #94C3E4; */
 	border: 0.1vw;
-	border-top-left-radius: 3vw;
+	border-top-left-radius: 2vw;
 	border-top-right-radius: 1.3vw;
-	border-bottom-right-radius: 3vw;
+	border-bottom-right-radius: 2vw;
 	border-bottom-left-radius: 1.3vw;
-	background-color: #213C87;
+	/* background-color: #213C87; */
+	background-color: #B6D6ED;
 	padding: 0.2vw;
 	/* background-color:#AEADF0; */
 	/* background-color: #66BFFF; */
-	font-size: 1.3vw;
+	font-size: 1.4vw;
 }
 button:hover{
 	cursor:pointer;
 	transform: scale(1.05);
 	/* border-width: 5px; */
 	border: 0.2vw solid #213C87;
-	background-color: #94C3E4;
+	background-color: #B6D6ED;
 }
 div.img{
 	text-align:center;
@@ -52,7 +62,8 @@ div.center-entertainment{
 div.textbox{
 	/* background-color:#F4EBBE; */
 	/* color: #427AA1; */
-	background-color: #94C3E4;
+	/* background-color: #94C3E4; */
+	background-color: #B6D6ED;
 	border-style:solid;
 	border-width: 0.2vw;
 	border-radius:0.3vw 0.3vw 0.3vw 0.3vw;
@@ -71,18 +82,19 @@ h1{
 	background-color:#213c8700;
 	/* background-color: #AEADF0; */
 	display: table;
-    margin: 0vw auto 0vw 0vw;
+    margin: 0vw 0vw 0vw 4vw;
     padding-top: 0.8vw;
 	padding-bottom: 0.8vw;
 	padding-left: 0.8vw;
 	padding-right: 0.8vw;
 	border-radius: 0.8vw;
 	vertical-align: middle;
+	font-family: "Righteous";
 }
 h2{
 	color:#000000;
 	/* color: #101D42; */
-	background-color:#94C3E4;
+	/* background-color:#94C3E4; */
 	/* background-color:#AEADF0; */
 	/* 213C8700 */
 	text-align:center;
@@ -128,8 +140,10 @@ ol{
 	width:100%;
 }
 p{
-	padding-left:1.3vw;
-	padding-bottom:1vw;
+	padding-top: 0.3vw;
+	padding-bottom: 0.3vw;
+	padding-left: 1.2vw;
+	padding-right: 1.2vw;
 	font-size: 1.3vw;
 	color: #000000;
 }
@@ -308,4 +322,23 @@ ul.navbar-buttons li {
 } 
 
 
+/* Fonts */
+.jersey-20-regular {
+	font-family: "Jersey 20", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
 
+.righteous-regular {
+	font-family: "Righteous", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+ }
+  
+ .noto-sans {
+   font-family: "Noto Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-variation-settings: "wdth" 100;
+ }
