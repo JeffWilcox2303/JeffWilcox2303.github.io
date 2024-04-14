@@ -59,6 +59,15 @@ div.center-entertainment{
 	text-align: center;
 	margin-left: 6vw;
 }
+div.space{
+	background-color: #ffffff;
+	border-color:#00000000;
+	top: 0;
+	width: 100%;
+	height: 10vw;
+	margin: 0vw;
+	padding: 0vw;
+}
 div.textbox{
 	/* background-color:#F4EBBE; */
 	/* color: #427AA1; */
@@ -69,6 +78,16 @@ div.textbox{
 	border-radius:0.3vw 0.3vw 0.3vw 0.3vw;
 	margin: 0.5vw auto 0.5vw 0vw;
 	border-color:#00000000;
+}
+div.top{
+	background-color: #ffffff;
+	border-color:#000000;
+	border-bottom: 0.2vw solid;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: 0vw;
+	padding: 0vw;
 }
 
 div.ul-container{
@@ -133,6 +152,7 @@ li.movie, li.book, li.tv{
 nav {
 	display: flex;
 	flex-direction: row;
+	/* position: fixed; */
 }
 ol{
 	float:left;
