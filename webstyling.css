@@ -49,6 +49,7 @@ button:hover{
 	/* border-width: 5px; */
 	border: 0.2vw solid #213C87;
 	background-color: #B6D6ED;
+	z-index:0;
 }
 div.img{
 	text-align:center;
@@ -74,9 +75,14 @@ div.textbox{
 	/* background-color: #94C3E4; */
 	background-color: #B6D6ED;
 	border-style:solid;
-	border-width: 0.2vw;
-	border-radius:0.3vw 0.3vw 0.3vw 0.3vw;
+	border: 0.1vw;
+	border-top-left-radius: 2vw;
+	border-top-right-radius: 1.3vw;
+	border-bottom-right-radius: 2vw;
+	border-bottom-left-radius: 1.3vw;
 	margin: 0.5vw auto 0.5vw 0vw;
+	padding-top: 0.1vw;
+	padding-bottom: 0.1vw;
 	border-color:#00000000;
 }
 div.top{
@@ -84,6 +90,7 @@ div.top{
 	border-color:#000000;
 	border-bottom: 0.2vw solid;
 	position: fixed;
+	z-index: 1;
 	top: 0;
 	width: 100%;
 	margin: 0vw;

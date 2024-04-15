@@ -38,7 +38,7 @@
 
 <!-- Introduction through paragraph and digital portrait -->
 <div>
-	<div id="technical_top" class = "flex-parent">
+	<div id="hello" class = "flex-parent">
 		<div class="flex-child0">
 		</div>
 
@@ -58,9 +58,43 @@
 			<a href="#radar" class="nav"><button>
 				<div class="linked">
 					<p class="linked">Integrated circuit design of a <abbr title="Frequency Modulated Continuous Wave">FMCW</abbr> radar in a 45nm <abbr title="General Process Development Kit">GPDK</abbr> for 30 GHz operation.</p>
-					<img src = "Extras/RadarLayout.jpg" alt="Radar Layout" title="Radar Layout" width="72%" height="auto" class="linked"/>
+					<img src = "Extras/RadarSystemLevel.jpg" alt="Radar Layout" title="Radar Layout" width="62%" height="auto" class="linked"/>
 				</div>
 			</button></a>
+		</div>
+
+		<div class="flex-child0">
+		</div>
+
+		<div class="flex-child2">
+			<h2>Characterizing Silicon</h2>
+			<a href="#VLSI" class="nav"><button><div class="text-box linked">
+				<p class="linked">Characterization of delay in minimally sized inverter and delay optimization of inverter fan out.</p>
+				<img src = "Extras/FO4_Layout.jpg" alt="Layout of Inverter FO4" title="Layout of Inverter FO4" width="70%" height="auto" class="linked"/>
+			</div></button></a>
+		</div>
+
+		<div class="flex-child0">
+		</div>
+	</div>
+	<div class="flex-parent">
+		<div class="flex-child0">
+		</div>
+
+		<div class="flex-child2">
+			<h2>Powering Racecars II</h2>
+			<a href="#drivetrain" class="nav"><button><div class="text-box linked">
+				<p class="linked">Mechanical power transmission from electric motor to rear wheels of the Cornell <abbr title="Formula Society of Automotive Engineers">FSAE</abbr> race car.</p>
+				<img src = "Extras/MotorShaftDrawing.jpg" alt="Side view of Motor Shaft Assembly in CAD" title="Side view of Motor Shaft Assembly in CAD" width="69%" height="auto" class="linked"/>
+			</div></button></a>
+		</div>
+
+		<div class="flex-child0">
+		</div>
+
+		<div class="flex-child2">
+			<h2>Resume</h2>
+			<a href="Extras/JTW88_Resume.pdf" target="_blank"><img src="Extras/Resume.jpg" width="100%" height="auto" class="linked" id="resume"/></a>
 		</div>
 
 		<div class="flex-child0">
@@ -75,18 +109,6 @@
 		</div>
 
 		<div class="flex-child0">
-		</div>
-	</div>
-	<div class="flex-parent">
-		<div class="flex-child1">
-		</div>
-
-		<div class="flex-child2">
-			<h2>Resume</h2>
-			<a href="Extras/JTW88_Resume.pdf"><img src="Extras/Resume.jpg" width="100%" height="auto" class="linked" id="resume"/></a>
-		</div>
-
-		<div class="flex-child1">
 		</div>
 	</div>
 </div>
@@ -115,14 +137,14 @@
 		</div>
 		<div class="flex-child4">
 			<object data="Extras/ARG24_Fa23_TechnicalReport_LV_PDU.pdf" width="90%" height="100%" style="border: solid 0.2vw;"></object>
-			<!-- <iframe src="Extras/Lonergan_Polito_Wilcox_FMCW_Radar_Transceiver.pdf" width="600vw" height="500vw"></iframe> -->
+			<!-- <iframe src="Extras/ARG24_Fa23_TechnicalReport_LV_PDU.pdf" width="90%" height="100%" style="border: solid 0.2vw;"></iframe> -->
 		</div>
 		<div class="flex-child0">
 		</div>
 	</div>
 
 	<div align="center" style="margin-top: 2vw">
-		<button><a href="Extras/ARG24_Fa23_TechnicalReport_LV_PDU.pdf" class = "nav">View Full Report</a></button>
+		<button><a href="Extras/ARG24_Fa23_TechnicalReport_LV_PDU.pdf" target="_blank" class = "nav">View Full Report</a></button>
 	</div>
 </div>
 
@@ -165,13 +187,80 @@
 	</div>
 
 	<div align="center" style="margin-top: 2vw">
-		<button><a href="Extras/Lonergan_Polito_Wilcox_FMCW_Radar_Transceiver.pdf" class = "nav">View Full Report</a></button>
+		<button><a href="Extras/Lonergan_Polito_Wilcox_FMCW_Radar_Transceiver.pdf" target="_blank" class = "nav">View Full Report</a></button>
 	</div>
 </div>
 
 <hr />
 
-<!-- Section on my love of the outdoors -->
+<div id="VLSI" class="main-section">
+	<h2>Characterizing Silicon</h2>
+	<div class = "textbox">
+		<p>My first design role on the FSAE project team was focused on supporting components for the drivetrain system, such as mounts and spacers for sprockets, as well as a motor shaft. The following year, I decided to take on a more electrically focused role
+			and worked on the Power Distribution Unit (PDU). This board was focused on routing regulated power to the correct systems across different states of the car. The main size and weight contributors are the high ampacity mechanical relays which route power
+			to non-critical systems. Additionally, there is fusing to all power outputs as well as timing logic for an LED indicator mounted at the top of the car to indicate whether high voltages are present, a normal condition that warns observers to keep their distance to avoid danger.
+			For more details, see my semester technical report below.	
+		</p>
+	</div>
+
+	<div class="flex-parent" style="margin-top: 2vw">
+		<div class="flex-child0">
+		</div>
+		<div class="flex-child4">
+			<img src = "Extras/Inverter_Sim.jpg" alt="Second Manufactured PDU Board" title="Second Manufactured PDU Board" width="85%" height="auto" vertical-align="middle"/>
+		</div>
+		<div class="flex-child0">
+		</div>
+		<div class="flex-child4">
+			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/OKfvp6oFxrU?si=9PUE4jTNw7TqTyh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			<!-- <iframe src="Extras/ARG24_Fa23_TechnicalReport_LV_PDU.pdf" width="90%" height="100%" style="border: solid 0.2vw;"></iframe> -->
+		</div>
+		<div class="flex-child0">
+		</div>
+	</div>
+
+	<div align="center" style="margin-top: 2vw">
+		<button><a href="Extras/ARG24_Fa23_TechnicalReport_LV_PDU.pdf" target="_blank" class = "nav">View Full Report</a></button>
+	</div>
+</div>
+
+<hr />
+
+<!-- FSAE Drivetrain Mechanical Design -->
+<div id="drivetrain" class="main-section">
+	<h2>Powering Racecars II</h2>
+	<div class = "textbox">
+		<p>My first design role on the FSAE project team was focused on supporting components for the drivetrain system, such as mounts and spacers for sprockets, as well as a motor shaft. The following year, I decided to take on a more electrically focused role
+			and worked on the Power Distribution Unit (PDU). This board was focused on routing regulated power to the correct systems across different states of the car. The main size and weight contributors are the high ampacity mechanical relays which route power
+			to non-critical systems. Additionally, there is fusing to all power outputs as well as timing logic for an LED indicator mounted at the top of the car to indicate whether high voltages are present, a normal condition that warns observers to keep their distance to avoid danger.
+			For more details, see my semester technical report below.	
+		</p>
+	</div>
+
+	<div class="flex-parent" style="margin-top: 2vw">
+		<div class="flex-child0">
+		</div>
+		<div class="flex-child4">
+			<object data="Extras/ARG23_Fa22_TechnicalReport_Drivetrain_Gearing-Sprockets_jtw88.pdf" width="90%" height="100%" style="border: solid 0.2vw;"></object>
+			<!-- <iframe src="Extras/Lonergan_Polito_Wilcox_FMCW_Radar_Transceiver.pdf" width="600vw" height="500vw"></iframe> -->
+		</div>
+		<div class="flex-child0">
+		</div>
+		<div class="flex-child4">
+			<img src = "Extras/MotorShaftDrawing.jpg" alt="Mixer Schematic" title="Mixer Schematic" width="90%" height="auto" vertical-align="middle"/>
+		</div>
+		<div class="flex-child0">
+		</div>
+	</div>
+
+	<div align="center" style="margin-top: 2vw">
+		<button><a href="Extras/Lonergan_Polito_Wilcox_FMCW_Radar_Transceiver.pdf" target="_blank" class = "nav">View Full Report</a></button>
+	</div>
+</div>
+
+<hr />
+
+<!-- Photonic Mode Coupler -->
 
 <div id="mode_coupler" class="main-section">
 	<h2>Enabling Biosensors</h2>
@@ -199,7 +288,7 @@
 	</div>
 
 	<div align="center" style="margin-top: 2vw">
-		<button><a href="Extras/Berg_Wilcox_Chen_Mode_Converter.pdf" class = "nav">View Full Report</a></button>
+		<button><a href="Extras/Berg_Wilcox_Chen_Mode_Converter.pdf" target="_blank" class = "nav">View Full Report</a></button>
 	</div>
 </div>
 
@@ -208,7 +297,7 @@
 <!-- Return to top -->
 
 <div align = "center">
-	<button><a href="#hello" class = "nav">Return to the top of this page</a></button>
+	<button><a href="#top" class = "nav">Return to the top of this page</a></button>
 </div>
 </body>
 </html>
