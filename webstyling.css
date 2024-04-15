@@ -240,24 +240,8 @@ ul.navbar-buttons li {
 #outdoors3{
 	flex:4;
 }
-#resume1{
-	flex:2;
-}
-#resume2{
-	flex:1;
-	padding-right: 1.3vw;
-}
-#resumecontainer{
-	display:flex;
-}
-#tv{
-	flex:1;
-}
-#tv-list-container{
-	display: table;
-	text-align: center;
-	width: 100%;
-	margin-left: 6vw;
+#resume:hover{
+	transform: scale(1.05);
 }
 
 .cover{
@@ -285,6 +269,12 @@ ul.navbar-buttons li {
 }
 .flex-child3{
 	flex: 2;
+}
+.flex-child4{
+	flex: 10;
+}
+.linked:hover{
+	cursor:pointer;
 }
 .main-section{
 	padding-top: 7.5%;
