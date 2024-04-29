@@ -5,7 +5,7 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&family=Righteous&display=swap" rel="stylesheet">
 
 	<title> Jeffrey's Website </title>
 	<link rel="icon" type="image/x-icon" href="Extras/apple.ico">
@@ -26,9 +26,10 @@
 	
 		<div class="navbar-right ul-container">
 			<ul class="navbar-buttons">
-				<li class="nav"><button><a href="index.html" class="nav">Home</a></button></li>
-				<li class="nav"><button><a href="technical.html" class="nav">Technical</a></button></li>
-				<li class="nav"><button><a href="personal.html" class="nav">Personal</a></button></li>
+				<li class="nav"><button class="header"><a href="index.html" class="nav">Home</a></button></li>
+				<li class="nav"><button class="header"><a href="technical.html" class="nav">Technical</a></button></li>
+				<li class="nav"><button class="header"><a href="leadership.html" class="nav">Leadership</a></button></li>
+				<li class="nav"><button class="header"><a href="personal.html" class="nav">Personal</a></button></li>
 			</ul>
 		</div>
 	</nav>
@@ -37,15 +38,79 @@
 <div class = "space"></div>
 
 
-<!-- Introduction through paragraph and digital portrait -->
+<!-- List of Topics -->
 <div>
 	<div id="hello" class = "flex-parent">
 		<div class="flex-child0">
 		</div>
 
-		<div class="flex-child1 textbox">
-			<p>	This page is still in the process of being updated. Please revisit in the future for more information on my previous leadership roles.
-			</p>
+		<div class="flex-child2">
+			<h2>FSAE Design Engineer</h2>
+			<a href="#FSAE" class="nav"><button><div class="text-box linked">
+				<p class="linked">Collaborated with fellow engineers to design, manufacture, tune, and race an all-electric race car.</p>
+				<img src = "Extras/RacingBear.png" alt="3D CAD View of PDU" title="3D CAD View of PDU" width="80%" height="auto" class="linked" style="border: 0"/>
+			</div></button></a>
+		</div>
+
+		<div class="flex-child0">
+		</div>
+
+		<div class="flex-child2">
+			<h2>CSSC President</h2>
+			<a href="#CSSC" class="nav"><button>
+				<div class="linked">
+					<p class="linked">Organized trips, social events, and club merchandise sales for the Ski and Snowboard Club at Cornell.</p>
+					<img src = "Extras/CSSC_Logo.png" alt="Radar Layout" title="Radar Layout" width="62%" height="auto" class="linked" style="border: 0"/>
+				</div>
+			</button></a>
+		</div>
+
+		<div class="flex-child0">
+		</div>
+
+		<div class="flex-child2">
+			<h2>Eagle Scout</h2>
+			<a href="#EagleScout" class="nav"><button><div class="text-box linked">
+				<p class="linked">Designed and led an outdoor classroom project as well as holding multiple leadership roles.</p>
+				<img src = "Extras/EagleScoutLogo.png" alt="Layout of Inverter FO4" title="Layout of Inverter FO4" width="70%" height="auto" class="linked" style="border: 0"/>
+			</div></button></a>
+		</div>
+
+		<div class="flex-child0">
+		</div>
+	</div>
+	<div id="hello2" class="flex-parent">
+		<div class="flex-child0">
+		</div>
+
+		<div class="flex-child2">
+			<h2>SSCS Volunteer</h2>
+			<a href="#SSCS" class="nav"><button><div class="text-box linked">
+				<p class="linked">Aided in the promotion and judging of the SSCS Arduino Contest for high school and undergraduate students</p>
+				<img src = "Extras/SSCS_Logo_Edit.png" alt="Side view of Motor Shaft Assembly in CAD" title="Side view of Motor Shaft Assembly in CAD" width="47%" height="auto" class="linked" style="border: 0"/>
+			</div></button></a>
+		</div>
+
+		<div class="flex-child0">
+		</div>
+
+		<div class="flex-child2">
+			<h2>EDAC Member</h2>
+			<a href="#EDAC" class="nav"><button><div class="linked">
+				<p class="linked">Advised the Dean of Engineering by providing insight into issues pertaining to engineering students.</p>
+				<img src = "Extras/CornellEngineering.jfif" alt="Mode Coupler Shape" title="Mode Coupler Shape" width="38%" height="auto" class="linked"/>
+			</div></button></a>
+		</div>
+
+		<div class="flex-child0">
+		</div>
+
+		<div class="flex-child2">
+			<h2><abbr title="Eta Kappa Nu">HKN</abbr> President</h2>
+			<a href="#HKN" class="nav"><button><div class="linked">
+				<p class="linked">Developed information session slides and organized the induction of new members into the ECE Honor Society</p>
+				<img src = "Extras/hkn.png" alt="Mode Coupler Shape" title="Mode Coupler Shape" width="59.5%" height="auto" class="linked" style="border: 0"/>
+			</div></button></a>
 		</div>
 
 		<div class="flex-child0">
@@ -55,10 +120,212 @@
 
 <hr />
 
+<!-- Power Distribution Unit -->
+
+<div class="main-section">
+	<h2 id="FSAE">FSAE Design Engineer</h2>
+	<div class = "textbox">
+		<p>In the fall of my first year at Cornell, I joined the Cornell FSAE team, drawn in by an interest to apply engineering skills and learn more about how automotive vehicles 
+			work. Since joining the team, I learned about analyzing, designing, and simulating electrical and mechanical system, as well as the importance of organized documentation
+			of work. I was able to learn unique skills from the successes and failures of the leads of the team during my first year apply these to my work during the following two years.
+			Although I learned almost everything I know about PCB design on the team, the most valuable skills I learned about were clearly communicating significant events, both positive
+			and negative, as well as building people up. If stressful work is being done and it is unclear how something broke or if something is working properly, the environment will become
+			more stressful. Additionally, if someone on a team feels unsupported and unrecognized, it is difficult for them to feel comfortable putting in more time to solve problems. Taking these ideas,
+			I did my best to encourage younger members of the team to feel comfortable trying new things and being honest about making mistakes, something that I did not feel was actively encouraged.
+		</p>
+	</div>
+
+	<div class="flex-parent" style="margin-top: 2vw">
+		<div class="flex-child0">
+		</div>
+		<div class="flex-child4">
+			<img src = "Extras/PDU_Physical.jpg" alt="Second Manufactured PDU Board" title="Second Manufactured PDU Board" width="70%" height="auto" vertical-align="middle"/>
+		</div>
+		<div class="flex-child0">
+		</div>
+		<div class="flex-child4">
+			<object data="Extras/ARG24_Fa23_TechnicalReport_LV_PDU.pdf" width="90%" height="100%" style="border: solid 0.2vw;"></object>
+			<!-- <iframe src="Extras/ARG24_Fa23_TechnicalReport_LV_PDU.pdf" width="90%" height="100%" style="border: solid 0.2vw;"></iframe> -->
+		</div>
+		<div class="flex-child0">
+		</div>
+	</div>
+
+	<div align="center" style="margin-top: 2vw">
+		<button><a href="#hello" class="return">Return to Top</a></button>
+	</div>
+</div>
+
+<hr />
+
+<!-- Radar Transceiver -->
+
+<div class="main-section">
+	<h2 id="CSSC">CSSC President</h2>
+	<div class = "textbox">
+		<p> During my junior fall, I worked with two other electrical engineering students to design a radar transceiver in a generic 45nm process with minimal power, area,
+			and crosstalk. The goal of the transceiver was to implement an FMCW radar operating between 25 and 30 GHz with minimized crosstalk by using a full duplex transceiver
+			with a delay line between the power amplifier and LNA to cancel radiation directly from the transmitter antenna to the receiver antenna, as the desired signal at the
+			would be the scattered signal from a target.
+		</p>
+
+		<p> This was our first introduction to mixers, power amplifiers, and LNAs as the semester had focused on becoming familiar with understanding how to analyze
+			complex transistor circuits and learning the fundamentals, such as gain, bandwidth, biasing, manufacturing restrictions, noise, and feedback. Applying what we had learned
+			was a challenging task and to do so, we divided the work into three, each person having ownership of one role. This allowed one of us to dive deep into the complexities of
+			our circuit and bounce ideas off of each other to learn more about each other's circuits and develop creative solutions. I had ownership over the mixer, which ended up being 
+			a double-balanced differential active mixer. Some difficulties with the mixer included long transient simulation times, a single to differential ended converter being needed
+			for the local-oscillator, and power amplifier having difficulties driving the mixer.
+		</p>
+	</div>
+
+	<div class="flex-parent" style="margin-top: 2vw">
+		<div class="flex-child0">
+		</div>
+		<div class="flex-child4">
+			<object data="Extras/Lonergan_Polito_Wilcox_FMCW_Radar_Transceiver.pdf" width="90%" height="100%" style="border: solid 0.2vw;"></object>
+			<!-- <iframe src="Extras/Lonergan_Polito_Wilcox_FMCW_Radar_Transceiver.pdf" width="600vw" height="500vw"></iframe> -->
+		</div>
+		<div class="flex-child0">
+		</div>
+		<div class="flex-child4">
+			<img src = "Extras/mixer_schematic.jpg" alt="Mixer Schematic" title="Mixer Schematic" width="90%" height="auto" vertical-align="middle"/>
+		</div>
+		<div class="flex-child0">
+		</div>
+	</div>
+
+	<div align="center" style="margin-top: 2vw">
+		<button><a href="#hello" class="return">Return to Top</a></button>
+	</div>
+</div>
+
+<hr />
+
+<div class="main-section">
+	<h2 id="EagleScout">Eagle Scout</h2>
+	<div class = "textbox">
+		<p>
+			I started my journey as a scout in early elementary school when my parents had me join the local pack as a tiger scout. Initially, scouting was something
+			that I had to do, mainly fun things like building pinewood derby cars, launching model rocket kits, baking cookies, and learning about morse code. Eventually,
+			there was a crossover ceremony and I became a boy scout rather than a cub scout. I did not know what was significant about this besides a new uniform,
+			a new handbook, and a new troop. Unbeknownst to me, things would be quite different. Rather than having weekly meetings with little dedication needed outside 
+			of scheduled times, boy scouts presented more opportunities for me to explore new topics more in depth as long as I was willing to put in the time and effort
+			to learn. Within the first two years, I grew annoyed with how the troop was being run as within troop meetings, the same content was being presented over and
+			over so I felt that there was not much to gain from the troop. I took a short break from scouting to realize that the program is larger than the troop and if I
+			am interested in making a change in the local organization, I have the power and voice to do so. With this knowledge, I returned to scouting reinvigorated to 
+			explore, learn, and make positive changes. I followed through the necessary requirements for each rank, aiming to meet or exceed expectations and being fortunate
+			enough to have the support of my family, friends, and scouting volunteers. Upon receiving the award of Eagle Scout, I was a Brotherhood member of the 
+			<abbr title="Order of the Arrow">OA</abbr>, the honor society of scouting, and had completed 41 merit badges, including lifesaving, cooking, and personal fitness.
+		</p>
+		<p>
+			My Eagle Scout project consisted of the design, fundraising, logistical organization, manufacture, and assembly of an outdoor classroom including a pea stone
+			base safe for young children and a set of five benches for a full class to be hosted outdoors. Many thanks to Mr. Andrews - former fifth grade science teacher 
+			at the school and a dedicated advisor to the project; Mrs. Horton - my scout leader who I would have been unable to figure out all of the necessary paperwork without;
+			Peter Wilcox - my father, who supplied his woodworking expertise and helped navigating the entire process from a simple idea to the final implementation; and finally,
+			a big thanks to the many volunteers who dedicated their time to manufacturing wooden benches, clearing the area for pea stone, laying the pea stone, and 
+			transportation of all of the materials. This project would not have been a success without you.
+		</p>
+	</div>
+
+	<div class="flex-parent" style="margin-top: 2vw">
+		<div class="flex-child0">
+		</div>
+		<div class="flex-child4">
+			<img src = "Extras/JeffMomDadEagleCOH.jpg" alt="My parents and I at my Eagle Scout recognition ceremony" title="My parents and I at my Eagle Scout recognition ceremony" width="75.5%" height="auto" vertical-align="middle"/>
+		</div>
+		<div class="flex-child0">
+		</div>
+		<div class="flex-child4">
+			<img src = "Extras/FinishedEagleProject.jpg" alt="The complete deliverable of my Eagle Scout project" title="The complete deliverable of my Eagle Scout project" width="100%" height="auto" vertical-align="middle"/>
+		</div>
+		<div class="flex-child0">
+		</div>
+		<div class="flex-child4">
+			<img src = "Extras/JeffMrsHortonEagleCOH.jpg" alt="My scoutmaster and I at my Eagle Scout recognition ceremony" title="My scoutmaster and I at my Eagle Scout recognition ceremony" width="75.5%" height="auto" vertical-align="middle"/>
+		</div>
+		<div class="flex-child0">
+		</div>
+	</div>
+
+	<div align="center" style="margin-top: 2vw">
+		<button><a href="#hello" class="return">Return to Top</a></button>
+	</div>
+</div>
+
+<hr />
+
+<!-- FSAE Drivetrain Mechanical Design -->
+<div class="main-section">
+	<h2 id="SSCS">SSCS Volunteer</h2>
+	<div class = "textbox">
+		<p>As an electrical engineer who grew up surrounded by engineering opportunities such as high school robotics, math competitions, app development projects, 
+			and STEM fairs, I realize that not every  </p>
+	</div>
+
+	<div class="flex-parent" style="margin-top: 2vw">
+		<div class="flex-child0">
+		</div>
+		<div class="flex-child4">
+			<object data="Extras/ARG23_Fa22_TechnicalReport_Drivetrain_Gearing-Sprockets_jtw88.pdf" width="90%" height="100%" style="border: solid 0.2vw;"></object>
+			<!-- <iframe src="Extras/Lonergan_Polito_Wilcox_FMCW_Radar_Transceiver.pdf" width="600vw" height="500vw"></iframe> -->
+		</div>
+		<div class="flex-child0">
+		</div>
+		<div class="flex-child4">
+			<img src = "Extras/MotorShaftDrawing.jpg" alt="Mixer Schematic" title="Mixer Schematic" width="90%" height="auto" vertical-align="middle"/>
+		</div>
+		<div class="flex-child0">
+		</div>
+	</div>
+
+	<div align="center" style="margin-top: 2vw">
+		<button><a href="#hello" class="return">Return to Top</a></button>
+	</div>
+</div>
+
+<hr />
+
+<!-- Photonic Mode Coupler -->
+
+<div class="main-section">
+	<h2 id="EDAC">EDAC Member</h2>
+	<div class = "textbox">
+		<p>Starting in the Fall of my second year at Cornell, I was invited to join the Engineering Dean's Advisory Council due to my experience with tutoring, project teams, 
+			and grading on campus. These roles gave me a unqiue insight and connections with other students that allowed me to better represent my peers than I would be able to
+			otherwise. Within these meetings, we would discuss topics including mental health, professional development, and Cornell's theme year "Freedom of Expression", in the
+			contexts of: how these impact engineering students, are these things common knowledge or should more effort be put into promoting them, and are there any possible solutions
+			or improvements that can be implemented? Serving on this council has given me an opportunity to make 
+		</p>
+	</div>
+
+	<div align="center" style="margin-top: 2vw">
+		<button><a href="#hello" class="return">Return to Top</a></button>
+	</div>
+
+</div>
+
+<hr />
+
+
+<div class="main-section">
+	<h2 id="HKN">HKN President</h2>
+	<div class = "textbox">
+		<p>I was recently elected the president of the Cornell chapter of Eta Kappa Nu. We are currently in a period of rebuilding the society from member loss following Covid-19,
+			but have made progress in revising induction practices. Stay tuned for updates!
+		</p>
+	</div>
+
+	<div align="center" style="margin-top: 2vw">
+		<button><a href="#hello" class="return">Return to Top</a></button>
+	</div>
+</div>
+
+<!-- <hr /> -->
+
 <!-- Return to top -->
 
-<div align = "center">
-	<button><a href="#hello" class = "nav">Return to the top of this page</a></button>
-</div>
+<!-- <div align="center" style="margin-top: 2vw">
+	<button><a href="#hello" class="nav">Return to Top</a></button>
+</div> -->
 </body>
 </html>
