@@ -97,7 +97,7 @@ div.textbox{
 	border-top-right-radius: 1.3vw;
 	border-bottom-right-radius: 2vw;
 	border-bottom-left-radius: 1.3vw;
-	margin: 0.5vw auto 0.5vw 0vw;
+	margin: 0.5vw auto 2.5vw 0vw;
 	padding-top: 0.1vw;
 	padding-bottom: 0.1vw;
 	border-color:#00000000;
@@ -252,10 +252,14 @@ ul.navbar-buttons li {
 	display:flex;
 }
 #hello{
-	padding-bottom:7.5%;
+	padding-bottom:5%;
 }
 #hello2{
-	padding-bottom:7.5%;
+	padding-top: 8%;
+	padding-bottom:1%;
+}
+#hello3{
+	padding-bottom: 2.5%;
 }
 #movies{
 	flex:1;
@@ -275,7 +279,10 @@ ul.navbar-buttons li {
 #outdoors3{
 	flex:4;
 }
-#resume:hover{
+/* #resume:hover{
+	transform: scale(1.05);
+} */
+#resumepic:hover{
 	transform: scale(1.05);
 }
 
@@ -312,8 +319,8 @@ ul.navbar-buttons li {
 	cursor:pointer;
 }
 .main-section{
-	padding-top: 7.5%;
-	padding-bottom: 7.5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
 	margin-left: 0.8vw;
 	margin-right: 0.8vw;
 }
